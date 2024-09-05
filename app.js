@@ -3,7 +3,7 @@ const mongoRouter = require("./src/routers/mongoRouter");
 
 const app = express();
 
-const PORT = 5000;
+const PORT = 5173;
 
 app.listen(PORT, () => console.log(`Server Running on port: ${PORT}`));
 
